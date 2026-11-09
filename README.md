@@ -8,6 +8,8 @@ This pipeline builds every predictor of the DUNE paper from Google Earth Engine 
 
 ## 1. Setup (once)
 
+All scripts and the notebook are in the code/ folder. Open a terminal there (cd code) and run each step from it, e.g. python 00_preflight.py.
+
 Use a Python 3.10+ environment (e.g. VS Code with a conda environment named `DUNE_GCC`). **No manual installation is needed.** Each step starts with `dune_env.ensure("<step>")`, which checks the packages that step needs and pip-installs any missing ones into the running Python, using pinned versions. Each package is test-imported in a separate process, so a library blocked by Windows Application Control is caught (for example, pandas 3.x DLLs blocked on a managed Windows PC) and an older pin is tried instead. Pins: earthengine-api 1.7.46, numpy 2.2.6, pandas 2.3.3, shapely 2.1.2, pyproj 3.7.2, pyogrio 0.11.1, geopandas 1.1.1, rasterio 1.4.4, scipy 1.15.3. A constraints file stops any dependency from pulling pandas 3 or numpy ≥ 2.3 back in.
 
 (`environment.yml` builds the same environment from scratch: `conda env create -f environment.yml`.)
