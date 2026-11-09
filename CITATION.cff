@@ -4,8 +4,8 @@ title: "DUNE: code for a reproducible two-stage 1 km surface NO2 benchmark over 
 version: 1.0.0
 date-released: 2026-11-09
 license: MIT
-repository-code: "https://github.com/Shahadat-baser/DUNE-GCC"   # edit before the first release
-# doi: 10.5281/zenodo.XXXXXXX   # add after Zenodo mints the DOI
+repository-code: "https://github.com/Shahadat-baser/DUNE-GCC"   
+# doi: https://doi.org/10.5281/zenodo.24090323    
 keywords:
   - TROPOMI
   - surface NO2
