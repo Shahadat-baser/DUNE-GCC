@@ -1,0 +1,19 @@
+name: DUNE_GCC
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - pandas>=2.1,<3      # pandas 3.x wheels were blocked by Windows Application Control on a managed Windows PC
+  - geopandas>=0.14
+  - rasterio>=1.3
+  - scipy>=1.11
+  - xgboost>=2.0
+  - matplotlib>=3.9
+  - requests>=2.31
+  - pip
+  - pip:
+      - earthengine-api>=1.4
+      - truststore>=0.9
+      - torch==2.5.1        # CPU build; dune_env installs it automatically if missing
+      - python-docx>=1.1

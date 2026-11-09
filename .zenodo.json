@@ -1,0 +1,16 @@
+{
+  "title": "DUNE: code for a reproducible two-stage 1 km surface NO2 benchmark over the Gulf Cooperation Council",
+  "upload_type": "software",
+  "description": "Google Earth Engine extraction, ground-data quality control, Stage 1 (column-to-surface XGBoost) and Stage 2 (PyTorch LSTM) models, sealed 2026 forward test, sensitivity runs, figure and table scripts for the DUNE benchmark. Ground observations are not redistributed; see README.",
+  "creators": [
+    {"name": "Baser, Shahadat", "affiliation": "Department of Geosciences, King Fahd University of Petroleum & Minerals"},
+    {"name": "Tawabini, Bassam S.", "affiliation": "Department of Geosciences, King Fahd University of Petroleum & Minerals"},
+    {"name": "Bilal, Muhammad", "affiliation": "Center for Aviation and Space Exploration, King Fahd University of Petroleum & Minerals"},
+    {"name": "Koeshidayatullah, Ardiansyah", "affiliation": "Department of Geosciences, King Fahd University of Petroleum & Minerals"}
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": ["TROPOMI", "surface NO2", "XGBoost", "LSTM", "Google Earth Engine", "GCC", "area of applicability"],
+  "related_identifiers": [],
+  "version": "1.0.0"
+}

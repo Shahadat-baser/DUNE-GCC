@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the archived release and the article."
+title: "DUNE: code for a reproducible two-stage 1 km surface NO2 benchmark over the GCC"
+version: 1.0.0
+date-released: 2026-11-09
+license: MIT
+repository-code: "https://github.com/Shahadat-baser/DUNE-GCC"   # edit before the first release
+# doi: 10.5281/zenodo.XXXXXXX   # add after Zenodo mints the DOI
+keywords:
+  - TROPOMI
+  - surface NO2
+  - XGBoost
+  - LSTM
+  - Google Earth Engine
+  - Gulf Cooperation Council
+authors:
+  - family-names: Baser
+    given-names: Shahadat
+    affiliation: "Department of Geosciences, King Fahd University of Petroleum & Minerals"
+  - family-names: Tawabini
+    given-names: Bassam S.
+    affiliation: "Department of Geosciences, King Fahd University of Petroleum & Minerals"
+  - family-names: Bilal
+    given-names: Muhammad
+    affiliation: "Architecture and City Design Department; Center for Aviation and Space Exploration, King Fahd University of Petroleum & Minerals"
+  - family-names: Koeshidayatullah
+    given-names: Ardiansyah
+    affiliation: "Department of Geosciences, King Fahd University of Petroleum & Minerals"
