@@ -1,6 +1,6 @@
 # DUNE — 1 km surface NO2 benchmark for the GCC (0.01° grid, 2019–2026)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24090323.svg)](https://doi.org/10.5281/zenodo.24090323)
 
 Code for: S. Baser, B. S. Tawabini, M. Bilal and A. Koeshidayatullah, "DUNE: A Reproducible Two-Stage Benchmark for 1 km Surface NO2 Over the Gulf Cooperation Council," submitted to *IEEE Transactions on Geoscience and Remote Sensing*. Cite the archived release (see `CITATION.cff`).
 
