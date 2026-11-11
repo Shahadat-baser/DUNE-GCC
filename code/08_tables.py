@@ -13,7 +13,7 @@ Output  tables_paper/TableN_<name>.csv (full precision) and tables_paper/DUNE_ta
   Table S10  GRU instead of LSTM (07h; supplement), written only if 07h was run
 """
 import os, sys, re, warnings
-CODE_DIR = r"D:\Cities\GCC_Cities2\code"                      # fallback when __file__ is undefined (notebook)
+CODE_DIR = os.getcwd()                    # fallback when __file__ is undefined (notebook)
 try:
     CODE_DIR = os.path.dirname(os.path.abspath(__file__))
 except NameError:
