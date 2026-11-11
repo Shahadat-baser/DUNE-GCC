@@ -15,7 +15,7 @@ Figures (files figures/FigNN_<name>.tif/.png)
 Output  figures/ and logs/figures_report.txt
 """
 import os, sys, glob, warnings
-CODE_DIR = r"D:\Cities\GCC_Cities2\code"                      # fallback when __file__ is undefined (notebook)
+CODE_DIR = os.getcwd()                      # fallback when __file__ is undefined (notebook)
 try:
     CODE_DIR = os.path.dirname(os.path.abspath(__file__))
 except NameError:
