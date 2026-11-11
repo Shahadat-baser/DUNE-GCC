@@ -1,13 +1,6 @@
 """
 STEP 8a - manuscript figures (local, ~5-15 min).  Run after 07g.  Reads frozen outputs only.
 
-Style (IEEE TGRS) - no text inside the plotting area (statistics go to captions/tables), legends outside
-  * 1080 dpi; TIFF (LZW) for submission + PNG for checking; no title inside any figure (captions are in
-    the manuscript text, by figure number)
-  * Times New Roman, black text; smallest text 10 pt (ticks, legends), axis labels 12 pt, panel letters
-    12 pt bold; widths 3.5 in (one column) or 7.16 in (two columns)
-  * one colour per model in every figure: observed black, X1 blue, LSTM-E orange, LSTM-P green,
-    LSTM-P roll light green, Stage 1 climatology grey, persistence light grey (dashed)
 Figures (files figures/FigNN_<name>.tif/.png)
   Fig01  study area: districts, elevation, ground monitors by role
   Fig02  workflow of the framework (schematic)
