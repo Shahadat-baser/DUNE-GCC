@@ -22,7 +22,7 @@ E. Simpler baseline: random-forest inversion with the same 40 predictors (leave-
 Output  logs/reviewer_diagnostics.txt (send this), logs/rd_*.csv, figures/FigS2_ale.tif/.png
 """
 import os, sys, glob, warnings
-CODE_DIR = r"D:\Cities\GCC_Cities2\code"                     # fallback when __file__ is undefined (notebook)
+CODE_DIR = os.getcwd()                    # fallback when __file__ is undefined (notebook)
 try:
     CODE_DIR = os.path.dirname(os.path.abspath(__file__))
 except NameError:
